@@ -1,0 +1,38 @@
+C: La secuencia de Juan
+
+Descripción
+las
+Juan es un gran matemático aficionado a las series, la encriptación y las adivinanzas. Durante
+su último viaje por los cerros de los Andes, encontró un aviso en latín que decía: "Si caer en
+trampas no quieres, entonces caminar k pasos, detenerte, caminar k+1 pasos, detenerte, caminar
+k+2 pasos, y así sucesivamente hasta llegar al final debes".
+
+Después de reflexionar mucho sobre el acertijo, Juan comprendió que debía seguir una cierta
+sucesión infinita para evitar las trampas, que se presenta de la siguiente manera:
+
+1, 1, 2, 1; 2, 3, 1, 2, 3, 4, 1; 2, 3, 4, 5
+
+Con el tiempo, Juan se olvidó en qué número de la sucesión se encontraba.
+
+Afortunadamente, cuenta con un contador de pasos, pero este solo le indica el número total de
+pasos que ha dado. Por ejemplo, si ha caminado 4 pasos, el contador le dirá 4, pero el cuarto
+número de la sucesión es 1.
+
+Ahora, Juan necesita tu ayuda para determinar en qué número de la sucesión se encuentra según
+el número total de pasos que ha caminado. ¿Puedes ayudarlo?
+
+Entrada
+La entrada comienza con un número T (1≤T≤ 100) El número de casos de prueba, seguido
+un número N (1 ≤ N < 10000) el paso general en el que Juan se encuentra
+
+Salida
+Para cada caso de prueba deberá imprimir el número de la sucesión en el que Juan se encuentra
+
+Ejemplos
+
+Entrada                 Salida
+5                       4
+10                      11
+831                     10
+1000                    6
+34                      2

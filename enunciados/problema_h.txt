@@ -1,0 +1,41 @@
+H. Filas de Numerópolis
+
+Descripción
+En Numerópolis, los habitantes adoran el orden en todo, incluso en sus filas para los juegos de
+la feria. Durante el festival anual de la ciudad, se organiza una competencia donde las personas
+se forman en filas y cada número hace la fila. Para que la fila esté "perfectamente ordenada,
+los números deben estar de menor a mayor, es decir al inicio de la fila debe estar el número más
+pequeño y al final de la fila el número más grande. Un oficial llamado Numerilito se encarga de
+controlar que la fila esté en orden, ya que en la ciudad de Numerópolis se debe respetar el orden
+en las filas. Tu misión es ayudar al oficial Numerilito a controlar el orden de las filas, para esto
+crea un programa para verificar si las filas están en orden.
+
+Entrada
+La primera línea contiene un número entero P (1≤ P< 100) que representa la cantidad de casos
+de prueba.
+Luego se presentan P líneas, donde empezarán con un número entero N 1≤N< 231 -1 la
+cantidad de habitantes que están en la fila, después siguen N líneas, donde cada línea tendrá un
+número que representa a un habitante, representados por el número K 1 < K< 231 -1.
+
+Salida
+La salida de cada caso de prueba será la palabra "SI" o "NO" (en mayúsculas ambos casos),
+Imprime "SI" si la fila en orden, de lo contrario si no es así imprime "NO", de esta forma podrás
+ayudar al oficial Numerilito a controlar cada una de las filas.
+
+Ejemplos
+
+Entrada                 Salida
+6                       SI
+5                       SI
+12 3 45                 NO
+10                      SI
+2578 9 10 23 34 35 60   NO
+7                       SI
+1 23 2 34 3 45 5
+6
+1
+10
+45 7 8 10
+1 2 345 7 8 9 10 11
+6
+2255 8 10

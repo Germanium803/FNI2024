@@ -1,0 +1,69 @@
+B: La matriz relacional del planeta marte
+
+Descripción
+Decenas de intrépidos viajeros espaciales han sido enviados en una misión de vital importancia:
+descubrir si existe vida en el misterioso planeta Marte. Sin embargo, su nave espacial experimentó
+numerosas averías y quedó varada en un lugar sin salida. En medio de esta situación crítica, los
+astronautas se encontraron con un enigmático mensaje. La clave para salir reside en encontrar la
+matriz relacional de orden K.
+
+En su búsqueda de respuestas, los exploradores notaron que este extraño mundo utiliza matrices
+como su principal forma de almacenamiento de datos. Todas las matrices en Marte comparten
+ciertas características:
+Son cuadradas, lo que significa que el número de filas es igual al número de columnas.
+Siguen un patrón único y constante.
+Sus elementos cambian simultáneamente en relación a un valor específico K.
+
+Por ejemplo, considera la siguiente matriz con n=4 y k=3:
+
+Para k = 1
+1 234
+212 3
+3 21 2
+4 321
+
+Para k = 2
+246 8
+4 246
+6 42 4
+864 2
+
+Para k = 3
+36912
+636 9
+96 36
+12 9 6 3
+
+Finalmente, nuestros valientes astronautas descubrieron la matriz relacional de orden K. Como
+puedes observar, todos los elementos de la matriz experimentan cambios y están relacionados por
+un valor constante.
+
+Sin embargo, los valores de N y K pueden llegar a ser extremadamente grandes, lo que hace
+que los cálculos manuales sean impracticables. Afortunadamente, han recurrido a ti, su amigo
+programador de confianza, para encontrar al instante la matriz relacional de orden K. ¿Puedes
+ayudar a tus amigos?
+
+Entrada
+12 de Noviembre de 2024
+La primera linea contiene un entero T(1 ≤ T≤ 100), que determina la cantidad de casos de
+prueba, seguido de T líneas, cada una conteniendo 2 enteros N, K (1 ≤ N, K≤ 20) que determina
+el tamaño de la matriz y el orden deseado.
+
+Salida
+Para cada caso de prueba, debes imprimir la matriz relacional de orden K (consulta los ejemplos
+de salida para mayor claridad). Al final de cada fila, imprime un punto ('.'). Una vez completada
+la matriz, emite salto de linea.
+
+Ejemplos
+
+Entrada                 Salida
+4                       1 2.
+2 1 2 1.
+33                      51 369.
+636.
+963.
+1 2 3 4 5.
+2 1 2 3 4.
+3 2 1 2 3.
+4 3 2 1 2.
+5 4 3 2 1.

@@ -1,0 +1,44 @@
+I. Quintomanía
+
+Descripción
+Cheems compone melodías. Las representa como una secuencia de notas, donde cada nota se
+codifica como un número entero entre 0 y 127 inclusive. El intervalo entre dos notas a y b es igual
+a a-b semitonos.
+
+Cheems considera que una melodía es perfecta si el intervalo entre cada dos notas adyacentes
+es de 5 o 7 semitonos.
+
+Después de componer sus últimas melodías, Cheems te muestra entusiasmado su colección de
+obras. Ayuda a Cheems a entender si sus melodías son perfectas.
+
+Entrada
+• La primera línea contiene un número entero t (1≤t≤ 1000) - el número de melodías.
+Cada melodía se describe en dos líneas.
+
+Salida
+
+La primera línea contiene un entero n (2≤ n ≤ 50) —- el número de notas en la melodía.
+La segunda línea contiene n enteros a1, a2,..., an (0 < ai 127) - las notas de la
+melodía.
+Para cada melodía, imprime "YES" si es perfecta; de lo contrario, imprime "NO".
+
+Ejemplos
+
+Entrada                 Salida
+8
+2                       YES
+114 109                 YES
+2                       YES
+17 10                   NO
+3                       YES
+76 83 88                NO
+8                       YES
+38 45 38 80 85 92 99 106
+5
+63 58 65 58 65
+8
+117 124 48 53 48 43 54 49
+5
+95 102 107 114 121
+10
+72 77 82 75 70 75 68 75 68 75

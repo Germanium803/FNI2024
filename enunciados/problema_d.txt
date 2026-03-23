@@ -1,0 +1,37 @@
+D: Reencuentro en la Calle Siempre Viva
+
+Descripción
+Tres amigos, Jamil, Miguel y Sebas, están emocionados por su reencuentro después de años de
+separación. Todos ellos viven en la misma calle, la calle Siempre Viva. Pues como sorprendentemente cada uno perdió todos sus poderes necesitan reunirse para volver a practicar y salvar el
+mundo Cada uno de los amigos reside en un punto específico de la calle Siempre Viva: Jamil en
+X1 Miguel en X2 y Sebas en X3. fíjese que todos los puntos se encuentran en una misma calle
+es decir que las distancias pueden ser expresadas como el valor absoluto de su diferencia. Para
+su reencuentro, enfrentan un desafío interesante: la distancia mínima total requerida que deben
+recorrer para encontrarse.
+
+A pesar de la emoción por su encuentro, los amigos también se dieron cuenta de que la respuesta
+óptima siempre será un número entero. Pues los puntos en los que viven los amigos son números
+de este tipo lo que no supone ningún problema y la distancia no será decimal.
+
+Lamentablemente los "Maquinolas", un grupo encargado de fundir el caos, y el que tiene mas
+poder entre todos los equipos, eliminó los poderes lógicos y computacionales de nuestros amigos,
+pero recurren a ti el nuevo equipo de programadores prodigios en el mundo y la salvación anhelada
+para salvar el mundo. ¿Crees que puedes ayudar a nuestros amigos?
+
+Entrada
+La primera linea contiene un entero T 1≤T ≤ 100, que representa el número de casos de prueba,
+seguidos de T líneas con tres números S,J,M (1 ≤ S, J, M ≤ 100000) que representa la ubicación
+de cada uno de ellos en la calle Siempre Viva
+
+Salida
+Para cada caso de prueba se deberá imprimir un número, la distancia total recorrida para su
+reencuentro
+
+Ejemplos
+
+Entrada                 Salida
+3                       6
+714                     20
+30-20-10                80
+40-100+20
+5

@@ -1,0 +1,26 @@
+E: El problema más fácil de dados
+
+Jorge y Miguel son dos amigos que están disfrutando de un emocionante juego de dados. Tienen
+una gran cantidad de dados y deciden lanzar n de ellos. Su objetivo es descubrir de cuántas
+maneras pueden sumar 6 con los resultados de los dados lanzados.
+
+Por ejemplo, si lanzan 2 dados, las combinaciones posibles que suman 6 son 3: (1, 5), (2, 4) y (3,
+3).
+
+Es importante notar que para formar estas combinaciones se deben utilizar exactamente los
+dados.
+
+Entrada
+La entrada consta de un número T (1 ≤T≤ 100) la cantidad de casos de prueba, seguido de T
+líneas con un número N(1 ≤N ≤ 109) La cantidad de dados que lanzaran Miguel y Jorge
+
+Salida
+Para cada caso de prueba se deberá imprimir un número, el número de combinaciones que llega a
+la suma buscada.
+
+Ejemplos
+
+Entrada                 Salida
+2
+2                       3
+3                       3

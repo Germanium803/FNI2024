@@ -1,0 +1,35 @@
+G. Algún Día
+
+Descripción
+Josué es un apasionado de la planificación de actividades a futuro. Sabe el día, el mes y el año en
+que desea realizar sus actividades, pero necesita conocer el día de la semana exacto para asegurarse
+de que sea un día apropiado.
+
+Josué vive en una dimensión alterna donde el sistema de fechas es el mismo que en nuestro planeta.
+Actualmente, en su planeta es 1 de enero del año 2000 y es sábado. Como el sistema de fechas es
+el mismo se sabe que: Enero tiene 31 días, Febrero tiene 28 días o 29 días (si es un año bisiesto),
+Marzo tiene 31 días, abril tiene 30 días, Mayo tiene 31 días, Junio tiene 30 días, Julio tiene 31
+días, Agosto tiene 31 días, Septiembre tiene 30 días, Octubre tiene 31 días, Noviembre tiene 30
+días y Diciembre tiene 31 días.
+
+Un año es bisiesto si es divisible entre 4, excepto aquellos divisibles entre 100, a menos que también
+sean divisibles entre 400.
+
+Entrada
+La entrada consta de un número T (1≤T ≤ 100) la cantidad de casos de prueba, seguidos de Т
+líneas cada una con 3 números D (0 < D < 31),M (1 ≤ M ≤ 12) y A (2000 ≤ A ≤ 2100), el día,
+el mes y el año que Josue quiere realizar su actividad.
+
+Salida
+Para cada caso de prueba, se debe imprimir el día de la semana correspondiente: 'Lunes', 'Martes',
+'Miércoles', 'Jueves', 'Viernes', 'Sábado' o 'Domingo'. Si la fecha ingresada es incorrecta, se debe
+imprimir'-1'.
+
+Ejemplos
+
+Entrada                 Salida
+4                       -1
+31 2 2100               Martes
+30 9 2059               Lunes
+20 6 2005               Jueves
+45 2000

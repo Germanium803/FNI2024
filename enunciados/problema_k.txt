@@ -1,0 +1,38 @@
+K. Problema Regional
+
+Descripción
+Se rumorea en las calles que nuestros vecinos chilenos suelen hablar de una forma algo incomprensible para quien no está acostumbrado, pero nadie se imagina lo difícil que es entender a Don
+Joaquín. Se dice que es tan chileno que cuando tiembla, es porque tiene resaca.
+
+Sin embargo, lo que más caracteriza a Don Joaquín es su extraña manera de experimentar. En uno
+de sus experimentos con el lenguaje máquina, movió un bit importante y logró que su computador
+entendiera cosas extrañas, creando un nuevo lenguaje que nadie podía comprender.
+
+Para una persona común, saludar sería tan simple como decir: "hola"
+Para Don Joaquín, en cambio, se diría: "hpmc"
+
+Don Joaquín quiere probar tus habilidades de análisis y programación, así que te proporciona un
+pequeño diccionario con las palabras en español y su traducción al nuevo idioma (test cases).
+
+Tu tarea es identificar cómo funciona la máquina de Don Joaquín y traducir palabras del español
+al "joaquiniol."
+
+Entrada
+La primera línea de la entrada contiene un solo entero t (1 ≤ t < 104) - el número de casos
+prueba.
+
+Cada caso de prueba consiste en una sola palabra en español que tiene como mínimo 1 carácter
+y como máximo 25 caracteres.
+
+Salida
+La salida debe ser la palabra traducida al "joaquiniol."
+
+Ejemplos
+
+Entrada                 Salida
+5                        pbscqliuidxyjzmqnexeso
+parangaricutirimicuaro   pbecoz{wrp
+padalustro               aoukftvvtjwzdqsrfnpiotf
+anticonstitucionalmente  rjdcuiw
+ricardo                  acdfhko
+abcdefg

@@ -1,0 +1,39 @@
+J. Robin Ayuda
+
+Descripción
+Hay un poco de forajido en cada persona, y un poco de héroe también. El forajido heroico Robin
+Hood es famoso por quitarle a los ricos y darle a los pobres.
+
+Robin encuentra n personas, comenzando desde la primera y terminando con la n-ésima. La
+i-ésima persona tiene a; de oro. Si a; ≥ k, Robin tomará todo el oro de esa persona, y si a; = 0,
+Robin dará 1 de oro si tiene alguno. Robin comienza con 0 de oro.
+
+Determina cuántas personas recibirán oro de Robin.
+
+Entrada
+La primera línea de la entrada contiene un solo entero t (1 ≤ t ≤ 104) - el número de casos
+prueba.
+
+La primera línea de cada caso de prueba contiene dos enteros n, k (1 ≤ n ≤ 50,1 ≤ k≤ 100)
+
+el número de personas y el umbral a partir del cual Robin Hood toma el oro.
+
+La segunda línea de cada caso de prueba contiene n enteros a1, a2;..., an (0≤ a; < 100) - el
+oro de cada persona.
+
+Salida
+Para cada caso de prueba, imprime un solo entero, el número de personas que recibirán oro de
+Robin Hood.
+
+Ejemplos
+
+Entrada                 Salida
+4
+2 2                     1
+2 0
+3 2                     2
+3 0 0
+6 2                     3
+0 3 0 0 0 0
+2 5                     0
+5 4

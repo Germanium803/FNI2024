@@ -1,0 +1,35 @@
+A. Compras en la Tienda
+
+Descripción
+12 de Noviembre de 2024
+Sebastián, Jorge y Cristian se encuentran de viaje en una competencia de programación, en su
+último día de viaje visitaron una tienda de recuerdos de la competencia, por ser el último día la
+tienda estaba con la siguiente promoción: "Lleve 3, pague los 2 con mayor precio", Entonces Jorge
+compró una mochila con un costo de 200 Bs, Cristian un bebedero de 200 Bs y Sebastián un mouse
+de 100 Bs. Por la promoción el costo total a pagar sería de 400 Bs.
+Entonces Jorge y Christian dijeron que lo mejor sería dividir el precio total entre 3, pero Sebastián
+se dio cuenta que de ser así estaría pagando mas de en lo que en realidad le costado su producto,
+haciendo cálculos Christian debería pagar 160 Bs, Jorge debería pagar 160 Bs y Sebas 80 Bs.
+Dados 3 productos puedes ayudarlo a calcular la cantidad que debería pagar cada uno, como a
+Sebastián no le gusta la imprecisión de los números decimales te pide que imprimas la respuesta
+en formato de fracciones (ver entrada y salida para mejor entendimiento de cómo se debe mostrar
+el resultado).
+
+
+Entrada
+La entrada comienza con un número T(1 ≤T≤ 100) la cantidad de casos de prueba, seguido de T
+líneas con 3 números A,B, C (100 < J,C,S < 1000) el precio de los productos de Jorge, Cristian
+y Sebastián respectivamente
+
+Salida
+Para cada caso de prueba deberás imprimir 3 números en formato N/D (Ver casos de prueba), que
+representan el precio que debe pagar cada uno después de ser aplicada la promoción.
+
+Ejemplos
+
+Entrada 		Salida
+4
+100 200 200		80/1 160/1 160/1
+250 200 230		3000/17 2400/17 2760/17
+198 299 910		79794/469 120497/469 52390/67
+1000 1000 1000		2000/3 2000/3 2000/3

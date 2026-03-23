@@ -1,0 +1,38 @@
+F. Cobra Kai
+
+Descripción
+Miguel quiere retomar una serie que dejó hace tiempo. Conoce la cantidad de temporadas y los episodios de cada una.
+
+Quiere saber en qué temporada y episodio se encuentra la mitad exacta de la serie (contando todos los episodios en orden).
+
+Si la mitad cae entre dos episodios, se deben mostrar todas las posibles respuestas.
+
+Entrada
+La entrada comienza con un número T (1 ≤ T < 100), cantidad de series.
+Para cada caso:
+
+Una línea con N (1 ≤ N < 30), número de temporadas
+Luego N líneas con un entero E (episodios por temporada)
+
+Salida
+Para cada caso imprimir:
+
+T: <temporada> E: <episodio>
+
+Si hay más de una respuesta, imprimir todas.
+
+Ejemplos
+
+Entrada                 Salida
+5                       T: 2 E: 1
+3                       T: 3 E: 1
+1 1 1                   T: 3 E: 2
+3                       T: 3 E: 2
+10 12 24                T: 3 E: 3
+4                       T: 2 E: 9
+12 3 4                  T: 3 E: 1
+3
+19 10
+3
+2 7 10
+7                       T: 3 E: 1
